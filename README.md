@@ -7,7 +7,11 @@ Music Structure Analysis is a research part in Music Information Retrieval (MIR)
 
 In this repository, we show how these input matrices are obtained following previous works methods. The code has been programmed in the University of Zaragoza, in the Department of Electronic Engineering and Communications by Carlos Hernández, David Díaz-Guerra and José Ramón Beltrán.
 
-The actual files in the repository are:
+## Repository Organization
+
+The actual files in the repository are divided in:
+
+### Jupyter Notebooks
 1. Calculation of Self-Similarity Lag Matrices in Python 3: "SelfSimilarityLagMatrix-Grill_Schluter.ipynb"
 2. Unsupervised Music Segmentation: "SelfSimilarityMatrix_Serra.ipynb"
 
