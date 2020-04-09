@@ -39,6 +39,10 @@ If you use conda/Anaconda environments, librosa can be installed from the conda-
 conda install -c conda-forge librosa
 ```
 
+## Webs of Interest
+
+MIREX - https://www.music-ir.org/mirex/wiki/MIREX_HOME
+MIR - https://musicinformationretrieval.com/
 
 ## Authors
 
