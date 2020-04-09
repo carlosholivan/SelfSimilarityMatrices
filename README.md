@@ -18,9 +18,6 @@ The actual files in the repository are divided in:
 | SelfSimilarityLagMatrix-Grill_Schluter.ipynb | SSLM calculated from MFCCs and cosine distance | "Music Boundary Detection using Neural Networks on Spectrograms and Self-Similarity Lag Matrices" | http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf | T. Grill and J. Schlüter | 2015 | EUPSICO |
 | SelfSimilarityMatrix_Serra.ipynb | Recurrence plot and SSM calculated from MFCCs | "Unsupervised Music Structure Annotation by Time Series Structure Features and Segment Similarity" | https://ieeexplore.ieee.org/abstract/document/6763101/ | J. Serrà, M. Müller, P. Grosche, J. Ll. Arcos | 2014 | IEEE |
 
-1. Calculation of Self-Similarity Lag Matrices in Python 3: "SelfSimilarityLagMatrix-Grill_Schluter.ipynb"
-2. Unsupervised Music Segmentation: "SelfSimilarityMatrix_Serra.ipynb"
-
 
 ## Prerequisites
 
