@@ -39,11 +39,32 @@ If you use conda/Anaconda environments, librosa can be installed from the conda-
 conda install -c conda-forge librosa
 ```
 
+## Databases
+
+Here is a list of the databases that are used in Music Structural Analysis:
+
+### RCW Database
+
+RCW Goto Annotations: http://staff.aist.go.jp/m.goto/RWC-MDB/AIST-Annotation
+
+RCW Quaero Project Annotations (MIREX10): http://musicdata.gforge.inria.fr/
+
+### Beatles Database
+
+Beatles-TUT Annotations: http://www.cs.tut.fi/sgn/arg/paulus/beatles_sections_TUT.zip
+
+Isophonic Beatles or Beatles-ISO Annotations: http://isophonics.net/content/reference-annotations
+
+### SALAMI Database
+
+2.0 version: https://ddmal.music.mcgill.ca/research/SALAMI/
+
+
 ## Webs of Interest
 
-MIREX - https://www.music-ir.org/mirex/wiki/MIREX_HOME 
+MIREX: https://www.music-ir.org/mirex/wiki/MIREX_HOME 
 
-MIR - https://musicinformationretrieval.com/
+MIR: https://musicinformationretrieval.com/
 
 ## Authors
 
