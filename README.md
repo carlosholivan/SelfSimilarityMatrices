@@ -1,22 +1,28 @@
 <img src="https://www.unizar.es/sites/default/files/identidadCorporativa/imagen/logoUZ.png"  width="480">
 
-# MUSIC STRUCTURE ANALYSIS
+# SELF SIMILARITY MATRICES
+
+<img src="https://github.com/carlosholivan/SelfSimilarityMatrices/images/sslm.png"  width="200">
+
+<img src="https://github.com/carlosholivan/SelfSimilarityMatrices/images/ssm.png"  width="200">
 
 ## Introduction
-Music Structure Analysis is a research part in Music Information Retrieval (MIR). Since 2009, MIREX's campaigns have been tested this algorithms which are composed by unsupervised and end-to-end methods which both of them take as inputs audio features such as MFCCs, chroma vectors or spectrograms, and the well-known self-similarity (lag) matrices.
+Self Similarity and Self Similarity Lag Matrices (SSMs and SSLMs) are representations of similar sequences in music and 
+they are commonly used in 
+[Music Structure Segmentation](https://github.com/carlosholivan/MusicStructureAnalysis) MIREX task.
 
-In this repository, we show how these input matrices are obtained following previous works methods. The code has been programmed in the University of Zaragoza, in the Department of Electronic Engineering and Communications by Carlos Hernández, David Díaz-Guerra and José Ramón Beltrán.
+In this repository, we show how these input matrices are obtained following previous works methods. 
+The code has been programmed in the University of Zaragoza, in the Department of Electronic Engineering and Communications 
+by Carlos Hernández, David Díaz-Guerra and José Ramón Beltrán.
 
 ## Repository Organization
 
-The actual files in the repository are divided in:
+The actual files in the repository are divided jupyter notebooks:
 
-### Jupyter Notebooks
-
-| Notebook name | Description | Paper Title | Link to Paper | Paper Authors | Year | Journal/Conference |
+| Notebook name | Description | Paper Title | Paper | Paper Authors | Year | Journal/Conference |
 | --- | --- | --- | --- | --- | --- | --- |
-| SelfSimilarityLagMatrix-Grill_Schluter.ipynb | SSLM calculated from MFCCs and cosine distance | "Music Boundary Detection using Neural Networks on Spectrograms and Self-Similarity Lag Matrices" | http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf | T. Grill and J. Schlüter | 2015 | EUPSICO |
-| SelfSimilarityMatrix_Serra.ipynb | Recurrence plot and SSM calculated from MFCCs | "Unsupervised Music Structure Annotation by Time Series Structure Features and Segment Similarity" | https://ieeexplore.ieee.org/abstract/document/6763101/ | J. Serrà, M. Müller, P. Grosche, J. Ll. Arcos | 2014 | IEEE |
+| [SelfSimilarityLagMatrix-Grill_Schluter](https://github.com/carlosholivan/SelfSimilarityMatrices/blob/master/notebooks/SelfSimilarityLagMatrix-Grill_Schluter.ipynb) | SSLM calculated from MFCCs and cosine distance | "Music Boundary Detection using Neural Networks on Spectrograms and Self-Similarity Lag Matrices" | [PDF](http://www.ofai.at/~jan.schlueter/pubs/2015_eusipco.pdf) | T. Grill and J. Schlüter | 2015 | EUPSICO |
+| [SelfSimilarityMatrix_Serra](https://github.com/carlosholivan/SelfSimilarityMatrices/blob/master/notebooks/SelfSimilarityMatrix_Serra.ipynb) | Recurrence plot and SSM calculated from MFCCs | "Unsupervised Music Structure Annotation by Time Series Structure Features and Segment Similarity" | [PDF](https://ieeexplore.ieee.org/abstract/document/6763101/) | J. Serrà, M. Müller, P. Grosche, J. Ll. Arcos | 2014 | IEEE |
 
 
 ## Prerequisites
@@ -27,7 +33,7 @@ Python 3.5 or later. In Ubuntu, Mint and Debian Python 3 can be installed like t
 sudo apt-get install python3 python3-pip
 ```
 
-Librosa 0.7.2 - https://librosa.github.io/librosa/install.html
+[Librosa 0.7.2](https://librosa.github.io/librosa/install.html)
 
 ```
 sudo pip install librosa
@@ -39,36 +45,15 @@ If you use conda/Anaconda environments, librosa can be installed from the conda-
 conda install -c conda-forge librosa
 ```
 
-## Databases
-
-Here is a list of the databases that are used in Music Structural Analysis:
-
-### RCW Database
-
-RCW Goto Annotations: http://staff.aist.go.jp/m.goto/RWC-MDB/AIST-Annotation
-
-RCW Quaero Project Annotations (MIREX10): http://musicdata.gforge.inria.fr/
-
-### Beatles Database
-
-Beatles-TUT Annotations: http://www.cs.tut.fi/sgn/arg/paulus/beatles_sections_TUT.zip
-
-Isophonic Beatles or Beatles-ISO Annotations: http://isophonics.net/content/reference-annotations
-
-### SALAMI Database
-
-2.0 version: https://ddmal.music.mcgill.ca/research/SALAMI/
-
-
 ## Webs of Interest
 
-MIREX: https://www.music-ir.org/mirex/wiki/MIREX_HOME 
+[MIREX](https://www.music-ir.org/mirex/wiki/MIREX_HOME) 
 
-MIR: https://musicinformationretrieval.com/
+[MIR](https://musicinformationretrieval.com/)
 
 ## Authors
 
-* **Carlos Hernández** - carloshero@unizar.es
+* [**Carlos Hernández**](https://carlosholivan.github.io/index.html) - carloshero@unizar.es
 * **David Díaz-Guerra** - ddga@uniza.es
 * **José Ramón Beltrán** - jrbelbla@unizar.es
 
