@@ -2,9 +2,9 @@
 
 # SELF SIMILARITY MATRICES
 
-<img src="https://github.com/carlosholivan/SelfSimilarityMatrices/images/sslm.png"  width="200">
+![](images/sslm.png)
 
-<img src="https://github.com/carlosholivan/SelfSimilarityMatrices/images/ssm.png"  width="200">
+![](images/ssm.png)
 
 ## Introduction
 Self Similarity and Self Similarity Lag Matrices (SSMs and SSLMs) are representations of similar sequences in music and 
